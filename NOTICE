@@ -1,0 +1,16 @@
+swift-time
+Copyright (c) 2026 The bare-swift Project Authors.
+
+This product is licensed under the Apache License, Version 2.0, with LLVM
+exceptions. See LICENSE for details.
+
+This is a native bare-swift package; it is not derived from any upstream
+Rust crate. The civil-date conversion algorithms (`daysFromCivil`,
+`civilFromDays`) are derived from Howard Hinnant's "date_algorithms"
+public-domain reference (http://howardhinnant.github.io/date_algorithms.html).
+The Sakamoto weekday-of-date algorithm (used in `RFC1123.serialize`) is
+similarly public-domain.
+
+RFC 3339: https://www.rfc-editor.org/rfc/rfc3339.html
+RFC 1123: https://www.rfc-editor.org/rfc/rfc1123.html
+RFC 7231 (IMF-fixdate): https://www.rfc-editor.org/rfc/rfc7231.html
